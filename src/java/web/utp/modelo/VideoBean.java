@@ -1,7 +1,4 @@
-
 package web.utp.modelo;
-
-
 public class VideoBean {
      int id;
      int id_usuario;
@@ -11,10 +8,8 @@ public class VideoBean {
      String imagen;
      String video_path;
      String estado;
-
     public VideoBean() {
     }
-
     public VideoBean(int id_usuario, String titulo, String categoria, String descripcion, String imagen, String video_path, String estado) {
         this.id_usuario = id_usuario;
         this.titulo = titulo;
@@ -88,12 +83,4 @@ public class VideoBean {
     public void setEstado(String estado) {
         this.estado = estado;
     }
-    
-    
-    
-    
-    
-    
-    
-
 }

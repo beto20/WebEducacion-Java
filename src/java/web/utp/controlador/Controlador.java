@@ -1,6 +1,4 @@
-
 package web.utp.controlador;
-
 import java.io.IOException;
 import java.util.List;
 import javax.servlet.ServletException;
@@ -11,17 +9,13 @@ import web.utp.modelo.ArticuloBean;
 import web.utp.modelo.VideoBean;
 import web.utp.modeloDAO.ArticuloDAOImpl;
 import web.utp.modeloDAO.VideoDAOImpl;
-
-
 public class Controlador extends HttpServlet {
-    
     VideoBean vb = new VideoBean();
     VideoDAOImpl vdao = new VideoDAOImpl();
     ArticuloBean ab = new ArticuloBean();
     ArticuloDAOImpl adao = new ArticuloDAOImpl();
     int ida;
     int idv;
-
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
             String menu = request.getParameter("menu");
@@ -161,9 +155,7 @@ public class Controlador extends HttpServlet {
             if (menu.equals("Miperfil")) {
                 request.getRequestDispatcher("Miperfil.jsp").forward(request, response);
             }
-            
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -202,5 +194,4 @@ public class Controlador extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
 }
