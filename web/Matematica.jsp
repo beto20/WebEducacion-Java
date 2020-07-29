@@ -102,7 +102,6 @@
                      <thead>
                     <tr>
                         <th>Titulo</th>
-                        <th>Categoria</th>
                         <th>Descripcion</th>
                         <th>Direccion url</th>
                     </tr>
