@@ -34,5 +34,6 @@ CREATE TABLE video(
 	CONSTRAINT fk_video_usuario FOREIGN KEY(id_usuario) REFERENCES usuario(id)
 )
 
-	INSERT INTO usuario VALUES('administrador','admin@admin.com','administrador')
+	  INSERT INTO usuario(nom_ape, correo, contraseña, imagen) VALUES('administrador','admin@admin.com','administrador','')
+
 	

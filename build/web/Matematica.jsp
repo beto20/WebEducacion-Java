@@ -57,13 +57,13 @@
               <div class="logo"><a href="index.jsp"><img src="images/logo.png" class="img-responsive" alt="logo"></a></div>
              <ul class="navbar-nav nav-fill w-100 nav-justify">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../entrevistas/entrevistas.php"><span style="color:white; font-size:25px;font-weight: bold">Inicio</span></a>
+                    <a class="nav-link" href="#"><span style="color:white; font-size:25px;font-weight: bold">Inicio</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../entrevistas/entrevistas.php"><span style="color:white; font-size:25px;font-weight: bold">Nosotros</span></a>
+                    <a class="nav-link" href="#"><span style="color:white; font-size:25px;font-weight: bold">Nosotros</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../entrevistas/entrevistas.php"><span style="color:white; font-size:25px;font-weight: bold">Cursos</span></a>
+                    <a class="nav-link" href="#"><span style="color:white; font-size:25px;font-weight: bold">Cursos</span></a>
                 </li>
             </ul>
           </div>
@@ -80,7 +80,7 @@
                     <tr>
                         <th>Titulo</th>
                         <th>Descripcion</th>
-                        <th>Imagen</th>
+    
                         <th>Video Url</th>
                     </tr>
                 </thead>
@@ -89,7 +89,6 @@
                             <tr>
                                 <td>${ vb.getTitulo() }</td>
                                 <td>${ vb.getDescripcion() }</td>
-                                <td>${ vb.getImagen() }</td>
                                 <td><a href="${ vb.getVideo_path() }">Ver video</a></td>
                             </tr>
                         </c:forEach>

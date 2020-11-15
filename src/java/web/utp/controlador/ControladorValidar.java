@@ -27,11 +27,11 @@ public class ControladorValidar extends HttpServlet {
                 request.getRequestDispatcher("Controlador?menu=Home").forward(request, response);
             
             }else{
-                request.getRequestDispatcher("login.jsp").forward(request, response);
+                request.getRequestDispatcher("index.jsp").forward(request, response);
             }
         }
         else{
-            request.getRequestDispatcher("login.jsp").forward(request, response);
+            request.getRequestDispatcher("index.jsp").forward(request, response);
         }
     }
 

@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 
 public class BDUtil {
-    private static String url="jdbc:sqlserver://localhost:1433;databaseName=DBVideosEdu";
+    private static String url="jdbc:sqlserver://localhost:1433;databaseName=DBVideosEdu1";
     private static String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";
     private static String user="albertoVS";
     private static String psw="123";

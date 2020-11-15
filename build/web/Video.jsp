@@ -46,7 +46,7 @@
                         </div>
                         <div class="form-group">
                             <label>Imagen</label>
-                            <input type="text" name="txtimagen" value="${ video.getImagen() }" class="form-control">
+                            <input type="file" name="txtimagen" value="${ video.getImagen() }" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Video URL</label>
